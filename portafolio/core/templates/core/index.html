@@ -1,0 +1,168 @@
+    <!--se incluye el otro archivo-->
+    {% extends 'core/base.html' %}
+    <!--El titulo de la página-->
+    {% block title %} Developers Castle {% endblock %}
+    <!--inicio del contenido-->
+    {% block content %}
+    <!--Archivos estaticos-->
+    {% load static %}
+
+
+     <!-- Menu --> 
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">   
+        </ul>
+        <ul class="navbar-nav my-2 my-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href='nosotros.html'>Nosotros </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="registro.html">Registro </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="login.html">Ingresar </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Imagen principal -->
+  <div class="jumbotron fondoin ">
+    <center>
+      <div class="logotipo">
+          <img src="../../static/core/media/img/castle.png" style="width: 20%"><h3 >Developers Castle</h3>
+          <br>
+          <div class="btn btn-black" style="background-color: black">
+          <a class="nav-link text-light" href="registro.html">Registro </a>
+          </div>
+     </div>
+    </center>
+  </div>
+  <!-- promocion -->
+    <section class="container">
+    <div class="row container ">
+      <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/core/media/img/fo.jpg">
+      </div>
+      <div class="col-sm-6" style="margin-top: 7%">
+        <h3 class="text-center display-5">Paso 1</h3>
+        <p class="text-center">Registrate en un solo paso</p>
+      </div>
+      <div class="col-sm-6" style="margin-top: 10%">
+        <h3 class="text-center display-5">Paso 2</h3>
+        <p class="text-center">Sube tus datos y adjunta tu hoja de vida</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/core/media/img/fondit.jpg">
+      </div>
+     <div class="col-sm-6">
+        <img class="col-sm-12 img-fluid" src="../../static/core/media/img/fond.jpg">
+      </div>
+      <div class="col-sm-6" style="margin-top: 10%">
+        <h3 class="text-center display-5">Paso 3</h3>
+        <p class="text-center">A trabajar</p>
+      </div>
+    </div>
+  </section>
+  <!-- nosotros -->
+  <div class="" style="margin: 60px">
+    <section class="container">
+    <div class="row container">
+      <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid " src="../../static/core/media/img/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Melisa Carmona Sosa</h5>
+        <br>
+        <h6 class="mb-0 text-center">Esta aprendiz del SENA se destaca más en lenguajes que van ligados al fronted como HTML, CSS. Ha realizado distintos proyectos en diferentes entornos de desarrollo y lenguajes tales como c# haciendo uso de Web Service.</h6>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid" src="../../static/core/media/img/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Camilo Vahos López</h5>
+        <br>
+        <h6 class="mb-0 text-center">Camilo es una persona emprendedora que va a lo grande, su objetivo principal es obtener el suficiente conocimiento para montar su propia empresa en torno al desarrollo, ha realizado estudios en otros idiomas tales como Inglés y Francés.</h6>
+      </div>
+     <div class="col-sm-4">
+        <h3 class="text-center display-5">Creado por:</h3>
+        <img class="col-sm-12 img-fluid" src="../../static/core/media/img/fond.jpg">
+        <br>
+        <h5 class="mb-0 text-center">Angeli Jaramillo Dominguez</h5>
+        <br>
+        <h6 class="mb-0 text-center">A esta aprendiz le gusta ir más allá de lo que le proponen y superar sus propios límites. Su especilidad es el backend le gusta realizar Base de Datos y hacer las debidas conexiones y validaciones que se requieren a la hora de realizar páginas o aplicaciones.</h6>
+      </div>
+</div>
+    </div>
+  </section>
+  </div>
+
+  <!--zona de mensajitos-->
+
+    <section class="container-fluid mt-2 bg-dark">
+        <div class="row">
+            
+            <!-- Sección de Contácto -->
+            <section class="col-md-12 row mt-2">
+                <div class="col-md-6">
+                    <h4 class="text-light">Encuentranos en:</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7164264954845!2d-75.57092518598358!3d6.3009425954397456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f25d6670d4d%3A0x8043999e5e767b96!2sCentro+de+Tecnolog%C3%ADa+de+la+Manufactura+Avanzada+-+SENA!5e0!3m2!1ses!2sco!4v1557230638851!5m2!1ses!2sco" width="628" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h4 class="text-light">Tambien en nuestras comunidades:</h4>
+                    <h1 class="text-light text-center">
+                        <i class="fab fa-github" title="GitHub"></i>&nbsp;<i class="fab fa-stack-overflow" title="Stack-Overflow"></i>&nbsp;<i class="fab fa-slack" title="Slack"></i>
+                    </h1>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-light">Dejanos un Mensaje</h4>
+                    <form class="row text-light" method="POST">
+                      <!--se verifica que el formulario se enviede manera segura-->
+                      {% csrf_token %}                      
+                      <div class="form-group col-sm-6">
+                        <label for="exampleFormControlInput1">Correo Electrónico</label>
+                        {{formulario.email}}
+                      </div>
+                      <div class="form-group col-sm-6">
+                        <label for="exampleFormControlSelect1">Tipo de Atención Requerida</label>
+                        {{formulario.tipom}}
+                        
+                      <div class="form-group col-sm-12">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        {{formulario.nombre}}
+                      </div>
+
+                      <div class="form-group col-sm-12">
+                        <label for="exampleFormControlTextarea1">Mensaje:</label>
+                        {{formulario.msj}}
+                      </div>
+                      {% if 'OK' in request.GET %}
+                      <span class="col-sm-12 alert alert-success mx-2" role="alert">
+                      </span>
+                      { %else% }
+                      <div class="form-group col-sm-12 text-right">
+                        <button type="button" class="btn btn-info col-md-6">Enviar</button>
+                      </div>
+                      {% endif %}
+
+                    </form>
+                </div>
+            </section>
+        </div>
+    </section>
+
+       
+        
+  <!-- Footer -->
+    <footer class="" style="background-color: black">
+      <p class="text-center text-light" style="">Copyright © Todos los Derechos Reservados</p>
+    </footer>
+  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ {% endblock %}
